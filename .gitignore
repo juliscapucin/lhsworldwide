@@ -1,0 +1,35 @@
+# Dependencies
+## Avoid any node_modules folders anywhere in the repo
+node_modules
+## Avoid package*.json files only at repo root
+# /package.json
+/package-lock.json
+
+# Themes
+themes/twentytwentytwo/
+themes/twentytwentythree/
+themes/twentytwentyfour/
+themes/lhsworldwide-brad/
+
+../../uploads/
+
+# Uploads directory
+/uploads/
+
+# Leftover core/plugin upgrade files
+/upgrade/
+
+# Ignore temporary OS files
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Local PHPCS configuration files
+.phpcs.xml
+phpcs.xml
+
+# Composer (repo root only)
+/vendor/
