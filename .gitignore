@@ -11,6 +11,10 @@ themes/twentytwentythree/
 themes/twentytwentyfour/
 themes/lhsworldwide-brad/
 
+# Plugins
+plugins/gutenberg/
+plugins/secure-custom-fields/
+
 ../../uploads/
 
 # Uploads directory
